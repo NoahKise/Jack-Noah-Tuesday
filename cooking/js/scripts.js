@@ -17,4 +17,5 @@ const outputUnit = window.prompt("Enter desired unit:");
 switch (inputUnit) {
   case ('oz'): window.alert((inputAmount * 28.3495) + outputUnit); break;
   case ('lbs'): window.alert((inputAmount * 453.592) + outputUnit); break;
+  case ('gal'): window.alert((inputAmount * 3.78541) + outputUnit); break;
 }
