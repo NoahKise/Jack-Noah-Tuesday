@@ -1,0 +1,71 @@
+.column {
+    width:47%;
+    float: left;
+    box-sizing: border-box;
+    margin: 0 0 0 30px;
+    border: ridge 10px yellowgreen;
+}
+
+img {
+width: 100%;
+margin: left;
+}
+
+/* body {
+    background-image: url("../images/crazy-dog.gif");
+} */
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+H3{
+    text-align: center;
+}
+
+.column p{
+
+font-family: Georgia, 'Times New Roman', Times, serif;
+background-color: aquamarine;
+}
+
+.column h3{
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: bisque;
+}
+
+.intro{
+text-align: center;
+
+
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 1050px) {
+    .column {
+        width:89vw;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    body{
+        background-color: black;
+        background-image: none;
+    }
+    h1 {
+        color: white;
+    }
+    .intro {
+        color: white;
+    }
+    .column {
+        width: 89vw;
+        border: none
+
+    }
+}
